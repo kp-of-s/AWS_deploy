@@ -20,6 +20,6 @@ class HomeControllerTest {
         ResponseEntity<String> response = restTemplate.getForEntity("/aws/v1", String.class);
 
         //두 매개변수가 동일하다면 테스트 통과
-        assertEquals("<h1>hell</h1>", response.getBody());
+        assertEquals("<h1>HELL</h1>", response.getBody());
     }
 }

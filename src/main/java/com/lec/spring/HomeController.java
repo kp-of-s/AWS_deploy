@@ -15,10 +15,10 @@ public class HomeController {
         if(num == 1)
             log.info("1");
         else if(num == -1)
-            log.info("-1");
+            log.error("-1");
         else if(num == 0)
-            log.info("0");
+            log.warn("0");
 
-        return "<h1>hell</h1>";
+        return "<h1>HELL</h1>";
     }
 }
